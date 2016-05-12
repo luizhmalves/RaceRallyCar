@@ -5,6 +5,8 @@
  */
 package racerallycar;
 
+import java.awt.Image;
+
 /**
  *
  * @author Luiz Alves
@@ -18,4 +20,15 @@ public interface Carro {
     int getDirigibilidade();
     void setFrenagem(int freio);
     int getFrenagem();
+    int getX();
+    int getY();
+    void setX(int x);
+    void setY(int y);
+    void setImagem(Image image);
+    Image getImagem();
+    void setDx(int dx);
+    int getDx();
+    void setDy(int dy);
+    int getDy();
+    
 }

@@ -19,6 +19,7 @@ public class GerenciaJanelas extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setSize(800, 600);
+        this.setResizable(false);
         this.setVisible(true);
     }
     
