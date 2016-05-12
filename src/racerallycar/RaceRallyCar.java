@@ -11,11 +11,10 @@ package racerallycar;
  */
 public class RaceRallyCar {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static GerenciaJanelas janelas;
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        janelas = new GerenciaJanelas();
     }
     
 }
