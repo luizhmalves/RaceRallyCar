@@ -16,4 +16,6 @@ public interface Carro {
     int getAceleracao();
     void setDirigibilidade(int direcao);
     int getDirigibilidade();
+    void setFrenagem(int freio);
+    int getFrenagem();
 }

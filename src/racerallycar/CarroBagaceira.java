@@ -9,8 +9,7 @@ package racerallycar;
  *
  * @author Luiz Alves
  */
-public class CarroBagaceira implements Carro
-{
+public class CarroBagaceira implements Carro {
 
     @Override
     public void setVelocidade(int velocidade) {
@@ -39,6 +38,16 @@ public class CarroBagaceira implements Carro
 
     @Override
     public int getDirigibilidade() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setFrenagem(int freio) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int getFrenagem() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
