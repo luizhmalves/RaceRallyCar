@@ -9,6 +9,11 @@ package racerallycar;
  *
  * @author Luiz Alves
  */
-public class Carro {
-    
+public interface Carro {
+    void setVelocidade(int velocidade);
+    int getVelocidade();
+    void setAceleracao(int aceleracao);
+    int getAceleracao();
+    void setDirigibilidade(int direcao);
+    int getDirigibilidade();
 }
