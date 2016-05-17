@@ -17,8 +17,8 @@ public class GerenciaJanelas extends JFrame{
         
         this.setTitle("Race Rally Car");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLocationRelativeTo(null);
         this.setSize(800, 600);
+        this.setLocationRelativeTo(null);
         this.setResizable(false);
         this.setVisible(true);
     }
